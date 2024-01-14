@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #0F0F0F;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #b4b4b4;
+    background-color: rgba(255, 255, 255, 0.432);
+    height: 30px;
+    width: 430px;
+    color: white;
+}
+
+.text:focus{
+    outline: none;
+}
+
+.btn{
+    padding: 11px;
+    width: 80px;
+    font-weight: 300;
+    background-color: rgba(255, 68, 0, 0.514);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 53px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn:hover{
+    background-color: rgba(255, 68, 0, 0.685);
+    transition: 0.2s ease;
+}
+
+.weather{
+    margin-top: 20px;
+    height: 180px;
+    width: 380px;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(10px);
+    min-height: 160px;
+    min-width: 140px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-wa{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    height: 350px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #00000069;
+}
+
+
+
+.form-box{
+    display: flex;
+    justify-content: center;
+}
+
+.bg-img{
+        width: 600px;
+        
+}
+
+h1{
+    color: white;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+.bg{
+    max-width: 100%;
+    aspect-ratio: 12/7;
+    object-fit: cover;
+    border-radius: 5px;
+    position: relative;
+    filter: blur(10px);
+}
+
+.img-main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 480px;
+    z-index: -1;
+}
+
+.tag{
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.city{
+    color: white;
+    position: relative;
+    top: 60px;
+    letter-spacing: 5px;
+
+}
+
+::placeholder{
+    color: #b9b9b9;
+}
